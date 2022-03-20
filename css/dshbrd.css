@@ -4,12 +4,18 @@
     width: 1125px;
     height: auto;
     left: 220px;
-    top: 75px;
+    top: 20px;
     border-radius: 5px;
 	-webkit-border-radius:10px;
 	border:none;
 	background:#E5E5E5;
 	box-sizing:border-box;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	left: 0;
+	right: 0;
 }
 .statistics{
     position:relative;
