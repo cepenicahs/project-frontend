@@ -1,0 +1,74 @@
+.coprofile{
+    position: absolute;
+    width: 1125px;
+    height: 1200px;
+    left: 220px;
+    top: 75px;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 5px;
+	-webkit-border-radius:10px;
+	border:none;
+	background:#E5E5E5;
+	box-sizing:border-box;
+}
+.coprofile #rectangle{
+    position: absolute;
+    width: 1125px;
+    height: 189px;
+    background: rgba(196, 196, 196, 0.6);
+    border-radius: 10px;
+}
+.coprofile .coname{
+    position: absolute;
+    font-family: Poppins;
+    font-weight: bold;
+    margin-top: 113px;
+    margin-left: 550px;
+}
+.coprofile img{
+    position: absolute;
+    margin-top: 48px;
+    margin-right: 134px;
+    width: 250px;
+    height: 250px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 130px;
+	margin-left:100px;
+}
+.coprofile .about{
+    position:absolute;
+	top:125px;
+	text-align:justify;
+	margin-left:400px;
+	margin-top:50px;
+}
+.coprofile ul{
+    position:absolute;
+    list-style: none;
+    margin-left: 585px;
+    margin-top: 300px;
+}
+.coprofile ul li{
+    float: left;
+    padding:10px;
+}
+.coprofile ul li i{
+    font-size: 25px;
+}
+.coprofile .co-Info-title{
+    position: absolute;
+    top:360px;
+    left:70px;
+    font-style: normal;
+    font-weight: 500px;
+}
+.co-Info #rectangle1{
+    position: absolute;
+    top:407px;
+    left: 70px;
+    width: 975px;
+    height: 238px;
+    background: rgba(196, 196, 196, 0.6);
+    border-radius: 2px;
+}
