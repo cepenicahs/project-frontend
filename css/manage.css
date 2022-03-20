@@ -604,4 +604,8 @@ body {
 		height: 35px;
 		margin-top: 30px;
 	}
+
+	.menu {
+		display: none;
+	}
 }
