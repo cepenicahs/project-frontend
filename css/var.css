@@ -272,15 +272,12 @@ body {
 
 @media screen and (max-width: 900px) {
     #home {
-        width: 200px;
+        width: 300px;
         position: absolute;
         top: 15px;
         left: 20px;
     }
 
-    .notif a {
-        display: none;
-    }
 
     
     #create {
@@ -289,25 +286,24 @@ body {
         height: 50px;
         width: 100px;
     }
+}
+    @media screen and (max-width: 750px) {
 
-    @media screen and (max-width: 630px) {
         #home {
             width: 180px;
             position: absolute;
             top: 15px;
             left: 20px;
         }
-        .notif .links_name {
-            display: none;
-        }
 
+        .notif{
+            font-size: 13px;
+        }
         #create {
             height: 50px;
             width: 80px;
             font-size: 12px;
         }
-       .remove {
-           display: none;
-        }
+    }
 
 }

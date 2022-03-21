@@ -14,7 +14,6 @@
 	border:none;
 	background:#E5E5E5;
 	box-sizing:border-box;
-	display: block;
 }
 .job-content .title{
     position: absolute;
@@ -37,21 +36,32 @@
 		-webkit-box-shadow: -7px 4px 11px 4px rgba(0,0,0,0.04);
 		-moz-box-shadow: -7px 4px 11px 4px rgba(0,0,0,0.04);
 		box-shadow: 1px;
-	padding:5px 3px;
-	box-sizing:border-box;
-	width:300px;
-	outline:none;
-	transition:all 0.2s ease;
-	border: none;
-    height: 49px;
-	-webkit-border-radius: 10px;
-	background:#ECECEC;;
-	font-family: Poppins;
+		padding:5px 3px;
+		box-sizing:border-box;
+		width:550px;
+		outline:none;
+		transition:all 0.2s ease;
+		border:none;
+		height: 49px;
+		-webkit-border-radius: 10px;
+		background:#ECECEC;;
+		font-family: Poppins;
 }
+
+
 .job-content .job-Info{
     margin-top: 119px;
     margin-left: 90px;
 }
+
+.job-Info {
+	padding-left: 500px;
+	width: 600px;
+}
+
+.btn-down {
+	margin-left: 500px;
+}|
 .j-1stform,
 .srange,
 .skills,
@@ -136,51 +146,97 @@
     margin-left: 180px;
 }
 
-@media screen and (max-width: 630px) {
+
+@media  screen and (max-width:1493px) {
+	
+.job-Info {
+		
+	transition:all 0.2s ease;
+	padding-left: 370px;
+	width: 600px;
+}
+
+.btn-down {
+		
+	transition:all 0.2s ease;
+	margin-left: 370px;
+}
+}
+
+@media  screen and (max-width:1200px) {
+	
+	.job-Info {
+		
+		transition:all 0.2s ease;
+		padding-left: 100px;
+		width: 600px;
+	}
+	
+	.btn-down {
+		
+		transition:all 0.2s ease;
+		margin-left: 100px;
+	}
+}
+
+@media  screen and (max-width:800px) {
+	
 
 	.job-content input[type="text"],
 	.job-content #select{
 	transition:all 0.2s ease;
-	width:130px;
+	width:200px;
 	border-width: 1px;
     height: 30px;
 	-webkit-border-radius: 6px;
-}
+	}
+	.btn-down {
+		margin-left: 0px;
+	}
 
-#add{
-	width: 100px;
-	height: 30px;
-    margin-top: 10px;
-	margin-left: 20px;
-}
 .job-desc textarea{
-	width:300px;
-	outline:none;
+	width:200px;
+
+}
+
+.j-2ndform .innerform #select{
+    width: 150px;
+}
+
+}
+
+
+@media  screen and (max-width:650px) {
+
+	.j-2ndform .innerform #select{
+		width: 
+	}
+	.skills input[type="text"]{
+		margin-bottom: 10px;
+		padding-right: 20px;
+		
+	}
+
+	.job-content input[type="text"],
+	.job-content #select{
 	transition:all 0.2s ease;
+	width:200px;
 	border-width: 1px;
-    height: 70px;
-	-webkit-border-radius: 10px;
-	background:#ECECEC;;
-	font-family: Poppins;
+	}
 
-}
-
-#s-draft{
-	width: 100px;
-	height: 30px;
-    margin-top: 10px;
+	.job-Info {
+		transition:all 0.2s ease;
+		align-items: left;
+	}
 	
-}
-#post-job{
-	width: 100px;
-	height: 30px;
-	margin-right: 30px;
-}
-
-.job-content .job-Info{
-    margin-top: 119px;
-    margin-left: 20px;
-}
-
+	.btn-down {
+			
+		transition:all 0.2s ease;
+		margin-left: -80px;
+	}
+	.job-content .job-Info{
+		margin-top: 119px;
+		margin-left: -80px;
+	}
 
 }
