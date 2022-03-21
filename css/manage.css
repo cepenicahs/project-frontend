@@ -25,7 +25,7 @@ body {
 	padding-left: 15%;
 	padding-top: 10px;
 	border: none;
-	background: rgba(196, 196, 196, 0.6);
+	background: #ffffffc7;
 	box-sizing: border-box;
 	position: absolute;
 	margin-left: auto;
@@ -49,17 +49,22 @@ body {
 }
 
 	.desc textarea {
+		box-shadow: -7px 4px 11px 4px rgba(0,0,0,0.04);
+		-webkit-box-shadow: -7px 4px 11px 4px rgba(0,0,0,0.04);
+		-moz-box-shadow: -7px 4px 11px 4px rgba(0,0,0,0.04);
+		box-shadow: 1px;
 		position: absolute;
 		top: 50px;
 		width: 500px;
+		border: none;
 		height: 150px;
 		padding-left: 15px;
 		padding-top: 10px;
 		text-align: left;
-		border-width: 1px;
 		-webkit-border-radius: 10px;
 		resize: none;
-		background: rgba(196, 196, 196, 0.6);
+		background: white;
+		
 	}
 
 	.profilepic img{
@@ -70,6 +75,9 @@ body {
 		border-radius: 100px;
 		background: #C4C4C4;
 		margin-left:100px;
+		box-shadow: -7px 4px 11px 4px rgba(0,0,0,0.04);
+		-webkit-box-shadow: -7px 4px 11px 4px rgba(0,0,0,0.04);
+		-moz-box-shadow: -7px 4px 11px 4px rgba(0,0,0,0.04);
 	}
 	.profile .profilepic i{
 		position: relative;
@@ -87,14 +95,18 @@ body {
 	.form input[type="text"],
 	.form textarea,
 	.form #select {
+		box-shadow: -7px 4px 11px 4px rgba(0,0,0,0.04);
+		-webkit-box-shadow: -7px 4px 11px 4px rgba(0,0,0,0.04);
+		-moz-box-shadow: -7px 4px 11px 4px rgba(0,0,0,0.04);
+		box-shadow: 1px;
 		padding: 5px 3px;
 		box-sizing: border-box;
 		width: 550px;
 		outline: none;
 		transition: all 0.2s ease;
-		border-width: 1px;
+		border: none;
 		-webkit-border-radius: 5px;
-		background: rgba(196, 196, 196, 0.6);
+		background: white;
 		font-family: Poppins;
 	}
 
@@ -146,6 +158,10 @@ body {
 	}
 
 .socmed {
+	box-shadow: -7px 4px 11px 4px rgba(0,0,0,0.04);
+		-webkit-box-shadow: -7px 4px 11px 4px rgba(0,0,0,0.04);
+		-moz-box-shadow: -7px 4px 11px 4px rgba(0,0,0,0.04);
+		box-shadow: 1px;
 	float:left;
 	position: relative;
 	width: 339px;
