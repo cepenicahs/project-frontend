@@ -116,7 +116,7 @@ body {
 .sidebar {
     position: fixed;
     width: 50px;
-    height: 650px;
+    height: 100%;
     background: #800000;
     border-radius: 0px 10px 0px 0px;
     left: 0%;
@@ -125,6 +125,7 @@ body {
     bottom: 0%;
     padding: 6px 5px;
     transition: all 0.5s ease;
+    z-index:99;
 }
 
 .sidebar-active {
@@ -301,10 +302,6 @@ body {
         }
        .remove {
            display: none;
-        }
-
-        .menu {
-            display: none;
         }
 
 }
